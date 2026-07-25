@@ -1,0 +1,407 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    font-family: 'Source Serif 4', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4A6670;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #2D3132;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #697b81;
+}
+
+
+.active {
+    color: #4A6670;
+    border-bottom: 2px solid #4A6670;
+    padding-bottom: 5px;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background-color: #4A6670;
+    color: white;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 10px;
+    padding: 12px 28px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar-btn{
+    border-radius:999px;
+    padding:12px 26px;
+}
+
+.btn-primary:hover {
+    background-color: #39525b;
+}
+
+.hero {
+    height: 85vh;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)),
+        url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-content {
+    max-width: 550px;
+    
+}
+
+.hero-content h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #4A6670;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white; 
+    color: #4A6670;
+    text-decoration: none;
+
+    border: 2px solid #4A6670;
+    border-radius: 10px;
+    padding: 12px 28px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #4A6670;
+    color: white;
+}
+
+.section-subtitle {
+    color: #888;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-family: 'Source Serif 4', serif;
+    font-size: 42px;
+    color: #4A6670;
+    margin-top: 10px;
+}
+
+
+.service-card {
+    width: 340px;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #E8EDEF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4A6670;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+
+.service-card h3 {
+    font-size: 22px;
+    color: #2D3132;
+    margin-bottom: 15px;
+}
+
+
+
+
+.service-card p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 15px;
+}
+.doctor-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.doctor-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+
+
+
+.doctor-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2D3132;
+    margin-bottom: 5px;
+}
+
+
+.doctor-span {
+    font-size: 15px;
+    color: #777;
+}
+
+
+.appointment-form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+.form-description {
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-group label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2D3132;
+    margin-bottom: 8px;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #4A6670;
+    box-shadow: 0 0 5px rgba(74, 102, 112, 0.3);
+}
+
+
+.form-group textarea {
+    resize: none;
+}
+
+
+.contact-details h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4A6670;
+    margin-bottom: 8px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+
+
+
+
+.contact-map img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.contact-map img:hover {
+    transform: scale(1.03);
+}
+
+
+.footer-logo {
+    font-family: 'Source Serif 4', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4A6670;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 15px;
+    color: #666;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #4A6670;
+}
+
+.footer-copy {
+    font-size: 14px;
+    color: #777;
+}
+
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px 0;
+    }
+
+    #bookBtn {
+        margin-left: 0;
+    }
+
+    .hero {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero .flex {
+        flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+
+    #About .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .doctor-image img {
+        margin: auto;
+    }
+
+
+    #appointment .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .appointment-form {
+        padding: 30px;
+    }
+
+    #Contact .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-map {
+        margin-top: 30px;
+    }
+
+
+    footer .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
